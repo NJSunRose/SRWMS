@@ -1,0 +1,845 @@
+DEBUG 2018-09-26 15:09:02,414 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-26 15:09:02,489 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-26 15:09:02,505 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.Web.Host.Startup.SunRoseWMSWebHostModule, SunRoseWMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.SunRoseWMSWebCoreModule, SunRoseWMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.SunRoseWMSApplicationModule, SunRoseWMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.SunRoseWMSCoreModule, SunRoseWMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.EntityFrameworkCore.SunRoseWMSEntityFrameworkModule, SunRoseWMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:02,513 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-26 15:09:02,572 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-26 15:09:02,572 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-26 15:09:02,572 [1    ] o.Configuration.LanguageManagementConfig - Converted SunRoseWMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-26 15:09:02,572 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-26 15:09:02,821 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SunRoseWMS.EntityFrameworkCore.SunRoseWMSDbContext, SunRoseWMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:03,527 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-26 15:09:03,601 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-26 15:09:03,635 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-26 15:09:03,653 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SunRoseWMS
+DEBUG 2018-09-26 15:09:03,690 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-26 15:09:03,845 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-26 15:09:03,876 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-26 15:09:03,876 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-26 15:09:03,881 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Users.Dto.CreateUserDto
+DEBUG 2018-09-26 15:09:03,881 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Users.Dto.UserDto
+DEBUG 2018-09-26 15:09:03,881 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-26 15:09:03,882 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-26 15:09:03,882 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-26 15:09:03,882 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Roles.Dto.PermissionDto
+DEBUG 2018-09-26 15:09:03,882 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Roles.Dto.RoleDto
+DEBUG 2018-09-26 15:09:03,882 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-26 15:09:03,882 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.MultiTenancy.Dto.TenantDto
+DEBUG 2018-09-26 15:09:33,825 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-09-26 15:09:33,842 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-09-26 15:09:33,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.Web.Host.Startup.SunRoseWMSWebHostModule, SunRoseWMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,854 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.SunRoseWMSWebCoreModule, SunRoseWMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,854 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.SunRoseWMSApplicationModule, SunRoseWMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,854 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.SunRoseWMSCoreModule, SunRoseWMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,854 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,854 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,854 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.EntityFrameworkCore.SunRoseWMSEntityFrameworkModule, SunRoseWMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:33,858 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-09-26 15:09:33,893 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-26 15:09:33,893 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-26 15:09:33,893 [1    ] o.Configuration.LanguageManagementConfig - Converted SunRoseWMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-26 15:09:33,893 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-09-26 15:09:34,055 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SunRoseWMS.EntityFrameworkCore.SunRoseWMSDbContext, SunRoseWMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-09-26 15:09:34,287 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-09-26 15:09:34,354 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-09-26 15:09:34,384 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-09-26 15:09:34,400 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SunRoseWMS
+DEBUG 2018-09-26 15:09:34,421 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-09-26 15:09:34,444 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-09-26 15:09:34,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-09-26 15:09:34,473 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-09-26 15:09:34,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Users.Dto.CreateUserDto
+DEBUG 2018-09-26 15:09:34,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Users.Dto.UserDto
+DEBUG 2018-09-26 15:09:34,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-09-26 15:09:34,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-09-26 15:09:34,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Roles.Dto.CreateRoleDto
+DEBUG 2018-09-26 15:09:34,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Roles.Dto.PermissionDto
+DEBUG 2018-09-26 15:09:34,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Roles.Dto.RoleDto
+DEBUG 2018-09-26 15:09:34,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-09-26 15:09:34,478 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.MultiTenancy.Dto.TenantDto
+WARN  2018-09-26 15:09:45,596 [6    ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "SunRoseWMSDb"。登录失败。
+用户 'DESKTOP-SS4M7H2\2018' 登录失败。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:695c0230-ab76-43b3-9ab1-081313854409
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "SunRoseWMSDb"。登录失败。
+用户 'DESKTOP-SS4M7H2\2018' 登录失败。
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:695c0230-ab76-43b3-9ab1-081313854409
+Error Number:4060,State:1,Class:11
+FATAL 2018-09-26 15:09:45,601 [1    ] Abp.AbpBootstrapper                      - System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "SunRoseWMSDb"。登录失败。
+用户 'DESKTOP-SS4M7H2\2018' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at SunRoseWMS.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\code\OpenSource\SunRoseWMS\aspnet-core\src\SunRoseWMS.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at SunRoseWMS.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\code\OpenSource\SunRoseWMS\aspnet-core\src\SunRoseWMS.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at SunRoseWMS.EntityFrameworkCore.SunRoseWMSEntityFrameworkModule.PostInitialize() in D:\code\OpenSource\SunRoseWMS\aspnet-core\src\SunRoseWMS.EntityFrameworkCore\EntityFrameworkCore\SunRoseWMSEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:695c0230-ab76-43b3-9ab1-081313854409
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "SunRoseWMSDb"。登录失败。
+用户 'DESKTOP-SS4M7H2\2018' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at SunRoseWMS.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\code\OpenSource\SunRoseWMS\aspnet-core\src\SunRoseWMS.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at SunRoseWMS.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\code\OpenSource\SunRoseWMS\aspnet-core\src\SunRoseWMS.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at SunRoseWMS.EntityFrameworkCore.SunRoseWMSEntityFrameworkModule.PostInitialize() in D:\code\OpenSource\SunRoseWMS\aspnet-core\src\SunRoseWMS.EntityFrameworkCore\EntityFrameworkCore\SunRoseWMSEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+ClientConnectionId:695c0230-ab76-43b3-9ab1-081313854409
+Error Number:4060,State:1,Class:11
+FATAL 2018-09-26 15:09:45,615 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "SunRoseWMSDb"。登录失败。
+用户 'DESKTOP-SS4M7H2\2018' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at SunRoseWMS.EntityFrameworkCore.Seed.SeedHelper.WithDbContext[TDbContext](IIocResolver iocResolver, Action`1 contextAction) in D:\code\OpenSource\SunRoseWMS\aspnet-core\src\SunRoseWMS.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 39
+   at SunRoseWMS.EntityFrameworkCore.Seed.SeedHelper.SeedHostDb(IIocResolver iocResolver) in D:\code\OpenSource\SunRoseWMS\aspnet-core\src\SunRoseWMS.EntityFrameworkCore\EntityFrameworkCore\Seed\SeedHelper.cs:line 17
+   at SunRoseWMS.EntityFrameworkCore.SunRoseWMSEntityFrameworkModule.PostInitialize() in D:\code\OpenSource\SunRoseWMS\aspnet-core\src\SunRoseWMS.EntityFrameworkCore\EntityFrameworkCore\SunRoseWMSEntityFrameworkModule.cs:line 46
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at Abp.AbpBootstrapper.Initialize() in D:\Github\aspnetboilerplate\src\Abp\AbpBootstrapper.cs:line 155
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.InitializeAbp(IApplicationBuilder app) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 67
+   at Abp.AspNetCore.AbpApplicationBuilderExtensions.UseAbp(IApplicationBuilder app, Action`1 optionsAction) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\AbpApplicationBuilderExtensions.cs:line 38
+   at SunRoseWMS.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in D:\code\OpenSource\SunRoseWMS\aspnet-core\src\SunRoseWMS.Web.Host\Startup\Startup.cs:line 93
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+ClientConnectionId:695c0230-ab76-43b3-9ab1-081313854409
+Error Number:4060,State:1,Class:11
+INFO  2018-09-26 15:09:45,821 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-09-26 15:09:45,895 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 75.7437ms 500 text/html; charset=utf-8
+WARN  2018-09-26 15:10:00,635 [14   ] Abp.BackgroundJobs.BackgroundJobManager  - System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "SunRoseWMSDb"。登录失败。
+用户 'DESKTOP-SS4M7H2\2018' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:ccd90e1e-b8ed-4cba-9370-02059c379214
+Error Number:4060,State:1,Class:11
+System.Data.SqlClient.SqlException (0x80131904): 无法打开登录所请求的数据库 "SunRoseWMSDb"。登录失败。
+用户 'DESKTOP-SS4M7H2\2018' 登录失败。
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.RelationalDatabaseFacadeExtensions.BeginTransaction(DatabaseFacade databaseFacade, IsolationLevel isolationLevel)
+   at Abp.EntityFrameworkCore.Uow.DbContextEfCoreTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\DbContextEfCoreTransactionStrategy.cs:line 38
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide, String name) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Uow\EfCoreUnitOfWork.cs:line 120
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.get_Table() in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 39
+   at Abp.EntityFrameworkCore.Repositories.EfCoreRepositoryBase`3.GetAllIncluding(Expression`1[] propertySelectors) in D:\Github\aspnetboilerplate\src\Abp.EntityFrameworkCore\EntityFrameworkCore\Repositories\EfCoreRepositoryBaseOfTEntityAndTPrimaryKey.cs:line 88
+   at Castle.Proxies.Invocations.IRepository`2_GetAll_3.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 68
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IRepository`2Proxy_1.GetAll()
+   at Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount) in D:\Github\aspnetboilerplate\src\Abp.Zero.Common\BackgroundJobs\BackgroundJobStore.cs:line 36
+   at Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options) in D:\Github\aspnetboilerplate\src\Abp\Domain\Uow\UnitOfWorkInterceptor.cs:line 78
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   at System.Threading.Tasks.Task`1.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   at Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   at Abp.BackgroundJobs.BackgroundJobManager.DoWork() in D:\Github\aspnetboilerplate\src\Abp\BackgroundJobs\BackgroundJobManager.cs:line 93
+   at Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e) in D:\Github\aspnetboilerplate\src\Abp\Threading\BackgroundWorkers\PeriodicBackgroundWorkerBase.cs:line 48
+ClientConnectionId:ccd90e1e-b8ed-4cba-9370-02059c379214
+Error Number:4060,State:1,Class:11
+INFO  2018-09-26 15:10:01,440 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://127.0.0.1:8488/iisintegration  0
+INFO  2018-09-26 15:10:01,461 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.7742ms 500 text/html; charset=utf-8
+DEBUG 2018-10-17 09:26:58,766 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-10-17 09:26:58,838 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-10-17 09:26:58,849 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.Web.Host.Startup.SunRoseWMSWebHostModule, SunRoseWMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.SunRoseWMSWebCoreModule, SunRoseWMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.SunRoseWMSApplicationModule, SunRoseWMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.SunRoseWMSCoreModule, SunRoseWMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,861 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.EntityFrameworkCore.SunRoseWMSEntityFrameworkModule, SunRoseWMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,862 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,863 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:58,865 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-10-17 09:26:58,913 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-17 09:26:58,913 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-17 09:26:58,913 [1    ] o.Configuration.LanguageManagementConfig - Converted SunRoseWMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-17 09:26:58,913 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-17 09:26:59,207 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SunRoseWMS.EntityFrameworkCore.SunRoseWMSDbContext, SunRoseWMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 09:26:59,885 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-10-17 09:26:59,972 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-10-17 09:27:00,013 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-10-17 09:27:00,033 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SunRoseWMS
+DEBUG 2018-10-17 09:27:00,057 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-10-17 09:27:00,180 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-10-17 09:27:00,218 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-10-17 09:27:00,218 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-10-17 09:27:00,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Users.Dto.CreateUserDto
+DEBUG 2018-10-17 09:27:00,225 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Users.Dto.UserDto
+DEBUG 2018-10-17 09:27:00,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-10-17 09:27:00,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-10-17 09:27:00,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Roles.Dto.CreateRoleDto
+DEBUG 2018-10-17 09:27:00,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Roles.Dto.PermissionDto
+DEBUG 2018-10-17 09:27:00,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Roles.Dto.RoleDto
+DEBUG 2018-10-17 09:27:00,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-10-17 09:27:00,226 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.MultiTenancy.Dto.TenantDto
+INFO  2018-10-17 09:27:04,324 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-10-17 09:27:04,324 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 DEBUG http://localhost:21021/  0
+INFO  2018-10-17 09:27:04,390 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 69.8337ms 200 
+INFO  2018-10-17 09:27:06,815 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action SunRoseWMS.Web.Host.Controllers.HomeController.Index (SunRoseWMS.Web.Host)
+INFO  2018-10-17 09:27:07,560 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Web.Host.Controllers.HomeController.Index (SunRoseWMS.Web.Host) - Validation state: Valid
+INFO  2018-10-17 09:27:07,564 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Web.Host.Controllers.HomeController.Index (SunRoseWMS.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.3511ms.
+INFO  2018-10-17 09:27:07,641 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-10-17 09:27:07,652 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Web.Host.Controllers.HomeController.Index (SunRoseWMS.Web.Host) in 832.2563ms
+INFO  2018-10-17 09:27:07,665 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-10-17 09:27:07,668 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3351.0158ms 302 
+INFO  2018-10-17 09:27:07,677 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.5283ms 301 
+INFO  2018-10-17 09:27:07,680 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-10-17 09:27:07,703 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 22.8135ms 200 text/html
+INFO  2018-10-17 09:27:07,717 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2018-10-17 09:27:07,719 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2018-10-17 09:27:07,722 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2018-10-17 09:27:07,726 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2018-10-17 09:27:07,728 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-10-17 09:27:07,763 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'D:\code\OpenSource\SunRoseWMS\aspnet-core\src\SunRoseWMS.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2018-10-17 09:27:07,766 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'D:\code\OpenSource\SunRoseWMS\aspnet-core\src\SunRoseWMS.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2018-10-17 09:27:07,768 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.9333ms 200 application/javascript
+INFO  2018-10-17 09:27:07,771 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.845ms 200 application/javascript
+INFO  2018-10-17 09:27:07,779 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2018-10-17 09:27:07,785 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 67.8898ms 200 text/css
+INFO  2018-10-17 09:27:07,794 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2018-10-17 09:27:07,800 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.533ms 200 application/javascript
+INFO  2018-10-17 09:27:07,832 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2018-10-17 09:27:07,834 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 115.089ms 200 application/javascript
+INFO  2018-10-17 09:27:08,127 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2018-10-17 09:27:08,183 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2018-10-17 09:27:08,188 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2018-10-17 09:27:08,190 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.1781ms 200 image/png
+INFO  2018-10-17 09:27:08,241 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-16x16.png  
+INFO  2018-10-17 09:27:08,249 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+INFO  2018-10-17 09:27:08,251 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.6193ms 200 image/png
+INFO  2018-10-17 09:27:08,335 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 207.9518ms 200 application/json;charset=utf-8
+INFO  2018-10-17 09:27:25,397 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-10-17 09:27:25,404 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 09:27:25,412 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.1802ms 204 
+INFO  2018-10-17 09:27:25,417 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-10-17 09:27:25,419 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 09:27:25,431 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2018-10-17 09:27:25,432 [7    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 09:27:25,435 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2018-10-17 09:27:25,900 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 463.7019ms.
+INFO  2018-10-17 09:27:25,912 [6    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 09:27:25,937 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 505.2742ms
+INFO  2018-10-17 09:27:25,939 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 522.7631ms 200 application/json; charset=utf-8
+INFO  2018-10-17 09:27:25,961 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-10-17 09:27:25,962 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 09:27:25,964 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.1887ms 204 
+INFO  2018-10-17 09:27:26,009 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-10-17 09:27:26,011 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 09:27:26,025 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action SunRoseWMS.Sessions.SessionAppService.GetCurrentLoginInformations (SunRoseWMS.Application)
+INFO  2018-10-17 09:27:26,027 [13   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 09:27:26,088 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Sessions.SessionAppService.GetCurrentLoginInformations (SunRoseWMS.Application) - Validation state: Valid
+INFO  2018-10-17 09:27:26,130 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Sessions.SessionAppService.GetCurrentLoginInformations (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 40.6991ms.
+INFO  2018-10-17 09:27:26,145 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 09:27:26,165 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Sessions.SessionAppService.GetCurrentLoginInformations (SunRoseWMS.Application) in 138.2543ms
+INFO  2018-10-17 09:27:26,167 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 163.1534ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:02:34,404 [82   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2018-10-17 10:02:34,405 [82   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:34,407 [82   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.179ms 204 
+INFO  2018-10-17 10:02:34,416 [79   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json;charset=UTF-8 73
+INFO  2018-10-17 10:02:34,417 [79   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:34,434 [79   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action SunRoseWMS.Controllers.TokenAuthController.Authenticate (SunRoseWMS.Web.Core)
+INFO  2018-10-17 10:02:34,436 [79   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:34,762 [79   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Controllers.TokenAuthController.Authenticate (SunRoseWMS.Web.Core) with arguments (SunRoseWMS.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+WARN  2018-10-17 10:02:34,944 [77   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 2.
+WARN  2018-10-17 10:02:35,350 [75   ] Mvc.ExceptionHandling.AbpExceptionFilter - 登录失败!
+Abp.UI.UserFriendlyException: 登录失败!
+   at SunRoseWMS.Controllers.TokenAuthController.GetLoginResultAsync(String usernameOrEmailAddress, String password, String tenancyName) in D:\code\OpenSource\SunRoseWMS\aspnet-core\src\SunRoseWMS.Web.Core\Controllers\TokenAuthController.cs:line 192
+   at SunRoseWMS.Controllers.TokenAuthController.Authenticate(AuthenticateModel model) in D:\code\OpenSource\SunRoseWMS\aspnet-core\src\SunRoseWMS.Web.Core\Controllers\TokenAuthController.cs:line 55
+   at lambda_method(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2018-10-17 10:02:35,358 [75   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:02:35,361 [75   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Controllers.TokenAuthController.Authenticate (SunRoseWMS.Web.Core) in 925.565ms
+INFO  2018-10-17 10:02:35,364 [75   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 947.5401ms 500 application/json; charset=utf-8
+INFO  2018-10-17 10:02:38,470 [82   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Account/IsTenantAvailable  
+INFO  2018-10-17 10:02:38,472 [82   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:38,474 [82   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.1904ms 204 
+INFO  2018-10-17 10:02:38,477 [77   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json;charset=UTF-8 25
+INFO  2018-10-17 10:02:38,479 [77   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:38,484 [77   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing action SunRoseWMS.Authorization.Accounts.AccountAppService.IsTenantAvailable (SunRoseWMS.Application)
+INFO  2018-10-17 10:02:38,486 [77   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:38,539 [77   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Authorization.Accounts.AccountAppService.IsTenantAvailable (SunRoseWMS.Application) with arguments (SunRoseWMS.Authorization.Accounts.Dto.IsTenantAvailableInput) - Validation state: Valid
+INFO  2018-10-17 10:02:38,546 [76   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Authorization.Accounts.AccountAppService.IsTenantAvailable (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.532ms.
+INFO  2018-10-17 10:02:38,551 [79   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:02:38,554 [79   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Authorization.Accounts.AccountAppService.IsTenantAvailable (SunRoseWMS.Application) in 67.754ms
+INFO  2018-10-17 10:02:38,556 [79   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 77.9048ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:02:39,208 [82   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-10-17 10:02:39,210 [82   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:39,212 [82   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.814ms 204 
+INFO  2018-10-17 10:02:39,221 [79   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-10-17 10:02:39,224 [79   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:39,229 [79   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2018-10-17 10:02:39,232 [79   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:39,235 [79   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2018-10-17 10:02:39,245 [79   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 7.6585ms.
+INFO  2018-10-17 10:02:39,252 [79   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:02:39,255 [79   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 22.6387ms
+INFO  2018-10-17 10:02:39,259 [79   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.664ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:02:39,283 [78   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-10-17 10:02:39,285 [78   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:39,286 [78   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.6217ms 204 
+INFO  2018-10-17 10:02:39,327 [79   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-10-17 10:02:39,328 [79   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:39,335 [79   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action SunRoseWMS.Sessions.SessionAppService.GetCurrentLoginInformations (SunRoseWMS.Application)
+INFO  2018-10-17 10:02:39,338 [79   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:39,344 [79   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Sessions.SessionAppService.GetCurrentLoginInformations (SunRoseWMS.Application) - Validation state: Valid
+INFO  2018-10-17 10:02:39,355 [78   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Sessions.SessionAppService.GetCurrentLoginInformations (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.1699ms.
+INFO  2018-10-17 10:02:39,363 [78   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:02:39,366 [78   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Sessions.SessionAppService.GetCurrentLoginInformations (SunRoseWMS.Application) in 28.0827ms
+INFO  2018-10-17 10:02:39,368 [78   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.3154ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:02:59,602 [82   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/TokenAuth/Authenticate  
+INFO  2018-10-17 10:02:59,607 [82   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:59,609 [82   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 30.2816ms 204 
+INFO  2018-10-17 10:02:59,619 [82   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json;charset=UTF-8 73
+INFO  2018-10-17 10:02:59,621 [82   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:59,624 [82   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing action SunRoseWMS.Controllers.TokenAuthController.Authenticate (SunRoseWMS.Web.Core)
+INFO  2018-10-17 10:02:59,626 [82   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:02:59,630 [82   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Controllers.TokenAuthController.Authenticate (SunRoseWMS.Web.Core) with arguments (SunRoseWMS.Models.TokenAuth.AuthenticateModel) - Validation state: Valid
+INFO  2018-10-17 10:02:59,910 [82   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Controllers.TokenAuthController.Authenticate (SunRoseWMS.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 278.2532ms.
+INFO  2018-10-17 10:02:59,923 [69   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:02:59,926 [69   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Controllers.TokenAuthController.Authenticate (SunRoseWMS.Web.Core) in 300.5391ms
+INFO  2018-10-17 10:02:59,928 [69   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 308.8935ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:03:00,524 [73   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-10-17 10:03:00,526 [73   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:00,527 [73   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.2826ms 204 
+INFO  2018-10-17 10:03:00,587 [71   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/AbpUserConfiguration/GetAll  
+INFO  2018-10-17 10:03:00,589 [71   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:00,634 [71   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:03:00,699 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "GetAll", controller = "AbpUserConfiguration", area = ""}. Executing action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore)
+INFO  2018-10-17 10:03:00,701 [67   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:00,703 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) - Validation state: Valid
+INFO  2018-10-17 10:03:00,825 [71   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.JsonResult in 120.4377ms.
+INFO  2018-10-17 10:03:00,830 [82   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:03:00,832 [82   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 131.0273ms
+INFO  2018-10-17 10:03:00,834 [82   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 247.5363ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:03:00,857 [72   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-10-17 10:03:00,859 [72   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:00,861 [72   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.1664ms 204 
+INFO  2018-10-17 10:03:00,940 [70   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Session/GetCurrentLoginInformations  
+INFO  2018-10-17 10:03:00,942 [70   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:00,944 [70   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:03:00,950 [70   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetCurrentLoginInformations", controller = "Session"}. Executing action SunRoseWMS.Sessions.SessionAppService.GetCurrentLoginInformations (SunRoseWMS.Application)
+INFO  2018-10-17 10:03:00,952 [70   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:00,955 [70   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Sessions.SessionAppService.GetCurrentLoginInformations (SunRoseWMS.Application) - Validation state: Valid
+INFO  2018-10-17 10:03:00,966 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Sessions.SessionAppService.GetCurrentLoginInformations (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.0217ms.
+INFO  2018-10-17 10:03:00,968 [67   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:03:00,971 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Sessions.SessionAppService.GetCurrentLoginInformations (SunRoseWMS.Application) in 19.2858ms
+INFO  2018-10-17 10:03:00,973 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.9117ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:03:06,292 [73   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:03:06,294 [73   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:06,296 [72   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-10-17 10:03:06,298 [73   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.6517ms 204 
+INFO  2018-10-17 10:03:06,300 [72   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:06,301 [72   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.8981ms 204 
+INFO  2018-10-17 10:03:06,317 [73   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:03:06,318 [72   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-10-17 10:03:06,320 [73   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:06,321 [72   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:06,323 [72   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:03:06,324 [73   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:03:06,330 [72   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetRoles", controller = "User"}. Executing action SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application)
+INFO  2018-10-17 10:03:06,332 [72   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:06,347 [73   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing action SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application)
+INFO  2018-10-17 10:03:06,348 [73   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:06,480 [72   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application) - Validation state: Valid
+INFO  2018-10-17 10:03:06,498 [73   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - Validation state: Valid
+INFO  2018-10-17 10:03:06,501 [82   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 19.8636ms.
+INFO  2018-10-17 10:03:06,506 [69   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:03:06,510 [69   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application) in 178.7244ms
+INFO  2018-10-17 10:03:06,512 [69   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 194.3714ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:03:06,687 [82   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 187.6598ms.
+INFO  2018-10-17 10:03:06,691 [69   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:03:06,695 [69   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application) in 347.1368ms
+INFO  2018-10-17 10:03:06,697 [69   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 380.0717ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:03:06,949 [70   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2018-10-17 10:03:06,951 [72   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:03:06,953 [70   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:06,955 [72   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:06,958 [70   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.8508ms 204 
+INFO  2018-10-17 10:03:06,959 [72   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.1716ms 204 
+INFO  2018-10-17 10:03:06,964 [73   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2018-10-17 10:03:06,965 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:03:06,966 [73   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:06,967 [67   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:06,969 [73   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:03:06,970 [67   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:03:06,975 [73   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPermissions", controller = "Role"}. Executing action SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application)
+INFO  2018-10-17 10:03:06,977 [73   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:06,978 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing action SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application)
+INFO  2018-10-17 10:03:06,980 [67   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:03:07,120 [73   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application) - Validation state: Valid
+INFO  2018-10-17 10:03:07,122 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - Validation state: Valid
+INFO  2018-10-17 10:03:07,130 [73   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.3024ms.
+INFO  2018-10-17 10:03:07,135 [82   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:03:07,138 [82   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application) in 160.807ms
+INFO  2018-10-17 10:03:07,141 [82   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 175.5431ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:03:07,178 [72   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 54.6924ms.
+INFO  2018-10-17 10:03:07,182 [67   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:03:07,184 [67   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application) in 204.4819ms
+INFO  2018-10-17 10:03:07,186 [67   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 221.7302ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:21:25,698 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-10-17 10:21:25,702 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:25,706 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.2663ms 204 
+INFO  2018-10-17 10:21:25,709 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:21:25,738 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:25,740 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-10-17 10:21:25,741 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.7174ms 204 
+INFO  2018-10-17 10:21:25,743 [33   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:25,748 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:21:25,751 [33   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:21:25,753 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:25,754 [36   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:21:25,757 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetRoles", controller = "User"}. Executing action SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application)
+INFO  2018-10-17 10:21:25,758 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing action SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application)
+INFO  2018-10-17 10:21:25,759 [33   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:25,761 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:25,763 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application) - Validation state: Valid
+INFO  2018-10-17 10:21:25,764 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - Validation state: Valid
+INFO  2018-10-17 10:21:25,769 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.9698ms.
+INFO  2018-10-17 10:21:25,775 [33   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:21:25,777 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application) in 17.6628ms
+INFO  2018-10-17 10:21:25,779 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.8967ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:21:25,789 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 22.7279ms.
+INFO  2018-10-17 10:21:25,794 [20   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:21:25,796 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application) in 35.6464ms
+INFO  2018-10-17 10:21:25,800 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 51.1076ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:21:26,313 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:21:26,314 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2018-10-17 10:21:26,316 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:26,318 [33   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:26,320 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.2601ms 204 
+INFO  2018-10-17 10:21:26,322 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.2518ms 204 
+INFO  2018-10-17 10:21:26,327 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:21:26,329 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2018-10-17 10:21:26,330 [32   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:26,332 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:26,334 [32   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:21:26,335 [20   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:21:26,338 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPermissions", controller = "Role"}. Executing action SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application)
+INFO  2018-10-17 10:21:26,339 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing action SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application)
+INFO  2018-10-17 10:21:26,340 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:26,342 [32   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:26,344 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application) - Validation state: Valid
+INFO  2018-10-17 10:21:26,367 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - Validation state: Valid
+INFO  2018-10-17 10:21:26,370 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 23.8468ms.
+INFO  2018-10-17 10:21:26,376 [36   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:21:26,378 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application) in 37.2234ms
+INFO  2018-10-17 10:21:26,379 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.2021ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:21:26,382 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13.2427ms.
+INFO  2018-10-17 10:21:26,386 [33   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:21:26,388 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application) in 46.7261ms
+INFO  2018-10-17 10:21:26,391 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 63.0239ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:21:44,315 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:21:44,317 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-10-17 10:21:44,319 [33   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:44,322 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:44,326 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.4912ms 204 
+INFO  2018-10-17 10:21:44,327 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.3007ms 204 
+INFO  2018-10-17 10:21:44,339 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-10-17 10:21:44,340 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:21:44,341 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:44,343 [32   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:44,345 [36   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:21:44,347 [32   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:21:44,351 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing action SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application)
+INFO  2018-10-17 10:21:44,353 [32   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:44,355 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetRoles", controller = "User"}. Executing action SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application)
+INFO  2018-10-17 10:21:44,356 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:44,359 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - Validation state: Valid
+INFO  2018-10-17 10:21:44,360 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application) - Validation state: Valid
+INFO  2018-10-17 10:21:44,366 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.9263ms.
+INFO  2018-10-17 10:21:44,375 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 13.3364ms.
+INFO  2018-10-17 10:21:44,378 [27   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:21:44,380 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application) in 23.316ms
+INFO  2018-10-17 10:21:44,383 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.649ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:21:44,387 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:21:44,389 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application) in 35.8958ms
+INFO  2018-10-17 10:21:44,392 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 52.5944ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:21:45,156 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:21:45,157 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2018-10-17 10:21:45,159 [33   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:45,160 [27   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:45,162 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5.7665ms 204 
+INFO  2018-10-17 10:21:45,165 [27   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.3315ms 204 
+INFO  2018-10-17 10:21:45,170 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:21:45,171 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2018-10-17 10:21:45,172 [33   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:45,173 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:45,175 [33   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:21:45,176 [34   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:21:45,179 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPermissions", controller = "Role"}. Executing action SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application)
+INFO  2018-10-17 10:21:45,181 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing action SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application)
+INFO  2018-10-17 10:21:45,183 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:45,184 [33   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:45,186 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application) - Validation state: Valid
+INFO  2018-10-17 10:21:45,188 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - Validation state: Valid
+INFO  2018-10-17 10:21:45,190 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.3278ms.
+INFO  2018-10-17 10:21:45,195 [24   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.6339ms.
+INFO  2018-10-17 10:21:45,197 [36   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:21:45,199 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application) in 17.0754ms
+INFO  2018-10-17 10:21:45,201 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.1589ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:21:45,206 [36   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:21:45,208 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application) in 24.2013ms
+INFO  2018-10-17 10:21:45,209 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.8853ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:21:51,470 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:21:51,471 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-10-17 10:21:51,474 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:51,476 [32   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:51,478 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.2065ms 204 
+INFO  2018-10-17 10:21:51,481 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.9818ms 204 
+INFO  2018-10-17 10:21:51,486 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:21:51,488 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-10-17 10:21:51,489 [33   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:51,490 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:51,492 [33   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:21:51,493 [20   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:21:51,497 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetRoles", controller = "User"}. Executing action SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application)
+INFO  2018-10-17 10:21:51,498 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing action SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application)
+INFO  2018-10-17 10:21:51,500 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:51,501 [33   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:51,503 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application) - Validation state: Valid
+INFO  2018-10-17 10:21:51,505 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - Validation state: Valid
+INFO  2018-10-17 10:21:51,508 [32   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2.7019ms.
+INFO  2018-10-17 10:21:51,513 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.6911ms.
+INFO  2018-10-17 10:21:51,515 [36   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:21:51,516 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application) in 17.2168ms
+INFO  2018-10-17 10:21:51,518 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 31.7023ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:21:51,522 [33   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:21:51,524 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application) in 23.3838ms
+INFO  2018-10-17 10:21:51,526 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.4848ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:21:53,384 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:21:53,386 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2018-10-17 10:21:53,387 [32   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:53,389 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:53,391 [32   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.0899ms 204 
+INFO  2018-10-17 10:21:53,393 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.7437ms 204 
+INFO  2018-10-17 10:21:53,395 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:21:53,397 [33   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/Role/getAllPermissions  
+INFO  2018-10-17 10:21:53,398 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:53,400 [33   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:53,402 [34   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:21:53,404 [33   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:21:53,407 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "Role"}. Executing action SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application)
+INFO  2018-10-17 10:21:53,409 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAllPermissions", controller = "Role"}. Executing action SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application)
+INFO  2018-10-17 10:21:53,410 [34   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:53,411 [33   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:21:53,413 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application) - Validation state: Valid
+INFO  2018-10-17 10:21:53,414 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - Validation state: Valid
+INFO  2018-10-17 10:21:53,417 [33   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1.9295ms.
+INFO  2018-10-17 10:21:53,422 [34   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:21:53,424 [34   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Roles.RoleAppService.GetAllPermissions (SunRoseWMS.Application) in 13.38ms
+INFO  2018-10-17 10:21:53,425 [34   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.6415ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:21:53,427 [27   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 10.0752ms.
+INFO  2018-10-17 10:21:53,432 [36   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:21:53,434 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Roles.RoleAppService.GetAll (SunRoseWMS.Application) in 24.3436ms
+INFO  2018-10-17 10:21:53,436 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.8891ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:22:39,602 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:22:39,604 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 OPTIONS http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-10-17 10:22:39,606 [36   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:22:39,608 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:22:39,613 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.2024ms 204 
+INFO  2018-10-17 10:22:39,616 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.7942ms 204 
+INFO  2018-10-17 10:22:39,630 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetRoles  
+INFO  2018-10-17 10:22:39,631 [18   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll?maxResultCount=10&skipCount=0&where=  
+INFO  2018-10-17 10:22:39,633 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:22:39,635 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:22:39,636 [18   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:22:39,638 [20   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2018-10-17 10:22:39,640 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing action SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application)
+INFO  2018-10-17 10:22:39,642 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {area = "app", action = "GetRoles", controller = "User"}. Executing action SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application)
+INFO  2018-10-17 10:22:39,643 [18   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:22:39,644 [20   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution successful.
+INFO  2018-10-17 10:22:39,646 [18   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application) with arguments (Abp.Application.Services.Dto.PagedResultRequestDto) - Validation state: Valid
+INFO  2018-10-17 10:22:39,647 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application) - Validation state: Valid
+INFO  2018-10-17 10:22:39,652 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.0771ms.
+INFO  2018-10-17 10:22:39,659 [20   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:22:39,661 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Users.UserAppService.GetRoles (SunRoseWMS.Application) in 17.3738ms
+INFO  2018-10-17 10:22:39,663 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 32.472ms 200 application/json; charset=utf-8
+INFO  2018-10-17 10:22:39,667 [17   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 18.284ms.
+INFO  2018-10-17 10:22:39,672 [36   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2018-10-17 10:22:39,674 [36   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Users.UserAppService.GetAll (SunRoseWMS.Application) in 31.2605ms
+INFO  2018-10-17 10:22:39,676 [36   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.571ms 200 application/json; charset=utf-8
+DEBUG 2018-10-17 17:02:38,293 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-10-17 17:02:38,318 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-10-17 17:02:38,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.Web.Host.Startup.SunRoseWMSWebHostModule, SunRoseWMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.SunRoseWMSWebCoreModule, SunRoseWMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.SunRoseWMSApplicationModule, SunRoseWMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.SunRoseWMSCoreModule, SunRoseWMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SunRoseWMS.EntityFrameworkCore.SunRoseWMSEntityFrameworkModule, SunRoseWMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.8.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,338 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-10-17 17:02:38,385 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-17 17:02:38,385 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-17 17:02:38,385 [1    ] o.Configuration.LanguageManagementConfig - Converted SunRoseWMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-17 17:02:38,385 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-10-17 17:02:38,568 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: SunRoseWMS.EntityFrameworkCore.SunRoseWMSDbContext, SunRoseWMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-10-17 17:02:38,803 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-10-17 17:02:38,866 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-10-17 17:02:38,897 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-10-17 17:02:38,913 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SunRoseWMS
+DEBUG 2018-10-17 17:02:38,934 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-10-17 17:02:38,957 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-10-17 17:02:38,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2018-10-17 17:02:38,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-10-17 17:02:38,994 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Users.Dto.CreateUserDto
+DEBUG 2018-10-17 17:02:38,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Users.Dto.UserDto
+DEBUG 2018-10-17 17:02:38,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-10-17 17:02:38,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-10-17 17:02:38,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Roles.Dto.CreateRoleDto
+DEBUG 2018-10-17 17:02:38,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Roles.Dto.PermissionDto
+DEBUG 2018-10-17 17:02:38,995 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.Roles.Dto.RoleDto
+DEBUG 2018-10-17 17:02:38,996 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-10-17 17:02:38,996 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SunRoseWMS.MultiTenancy.Dto.TenantDto
+INFO  2018-10-17 17:02:41,500 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2018-10-17 17:02:42,281 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action SunRoseWMS.Web.Host.Controllers.HomeController.Index (SunRoseWMS.Web.Host)
+INFO  2018-10-17 17:02:42,521 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method SunRoseWMS.Web.Host.Controllers.HomeController.Index (SunRoseWMS.Web.Host) - Validation state: Valid
+INFO  2018-10-17 17:02:42,524 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method SunRoseWMS.Web.Host.Controllers.HomeController.Index (SunRoseWMS.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.2736ms.
+INFO  2018-10-17 17:02:42,667 [13   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2018-10-17 17:02:42,674 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action SunRoseWMS.Web.Host.Controllers.HomeController.Index (SunRoseWMS.Web.Host) in 391.1582ms
+INFO  2018-10-17 17:02:42,713 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1216.187ms 302 
+INFO  2018-10-17 17:02:42,714 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2018-10-17 17:02:42,721 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.7189ms 301 
+INFO  2018-10-17 17:02:42,723 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2018-10-17 17:02:42,742 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.9723ms 200 text/html
